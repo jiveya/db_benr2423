@@ -8,7 +8,7 @@ client.connect(err => {
         return
     }
      console.log('Connected to MongoDB');
-     //to list down all the databases:
+ //List down all the databases:
      //client.db().admin().listDatabases().then(result => {
         //console .log(result);
         //console .log(result['databases']);
