@@ -34,7 +34,8 @@ client.connect(async err => {
                       //OR
 //NEW METHOD:Insert by using await operator that used to wait for a promise
 //Await is only valid in async function=> important**change client.connect(async err) ,then let result = await client.db...
-  //  console.time('insert');   //async process=awaits, which is a process that takes time to complete the operation
+//async process=awaits, which is a process that takes time to complete the operation
+  //  console.time('insert');   
   //  let result = await client.db('myFirstDatabase').collection('customers').insertOne({
   //  	name: 'Michael',
 	//    age: 32,
