@@ -42,8 +42,8 @@ client.connect(async err => {
 			//'City':faker.address.city(),
 			//'Email':faker.internet.email(),
 			//'PhoneNumber':faker.phone.phoneNumber(),
-		  //'HomePage': faker.internet.url(),
-      //'AvatarURL': faker.internet.avatar()
+		        //'HomePage': faker.internet.url(),
+                        //'AvatarURL': faker.internet.avatar()
 			
 			})  
 	
