@@ -18,7 +18,7 @@ client.connect(async err => {
 	const Email = faker.internet.email(); 
 	const PhoneNumber = faker.phone.phoneNumber(); 
 	const homepage= faker.internet.url();
-  const avatar= faker.internet.avatar();
+        const avatar= faker.internet.avatar();
 	const zh_CN_fullName = `${faker_zh_CN.name.firstName()} ${faker_zh_CN.name.lastName()}`;
 	
 		console.time('insert');
@@ -27,7 +27,7 @@ client.connect(async err => {
 			Firstname:`${firstname}`,
 			Lastname: `${lastname}`,
 			Country:`${country}`,
-      City:`${city}`,
+                        City:`${city}`,
 			PhoneNumber: `${PhoneNumber}`,
 			Email:`${Email}`,
 			AvatarURL:`${avatar}`,
